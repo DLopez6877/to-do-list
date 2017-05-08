@@ -10,10 +10,12 @@ body, html {
   height: 100%;
 }
 
+
 body {
   background: linear-gradient(to bottom, #ffe202 , #f8aa00);
   background-size: contain;
   font-family: Rock Salt;
+  background-repeat: no-repeat;
 }
 
 h1 {
