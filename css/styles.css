@@ -5,3 +5,48 @@
 .glyphicon {
   float: right;
 }
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffe202 , #f8aa00);
+  background-size: contain;
+  font-family: Rock Salt;
+}
+
+h1 {
+  font-family: impact;
+  text-align: center;
+  font-size: 13em;
+}
+
+h2 {
+  font-family: impact;
+  font-size: 5em;
+  text-decoration: underline;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+#deathlist {
+  display: none;
+}
+
+li {
+  color: red;
+  font-size: 22px;
+  text-indent: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+img {
+  max-width: 100%;
+}

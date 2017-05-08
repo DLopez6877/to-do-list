@@ -16,7 +16,7 @@ $(function() {
     var newListItem = new ListItem(newInput);
 
     // adds new task to results list on the right side of screen
-    $("ol#result-list").append("<li><span class='return'>" + newListItem.userTask + "</span>          <span class='glyphicon glyphicon-remove'></span></li>");
+    $("ol#result-list").append("<li> <span class='return'>" + newListItem.userTask + "</span><span class='glyphicon glyphicon-remove'></span></li>");
 
     // on click crossout text
     $(".return").last().click(function(){
@@ -28,6 +28,7 @@ $(function() {
       $(this).parent().remove();
     });
 
+    $("#deathlist").fadeIn(3000);
   });
 
 });
